@@ -68,6 +68,9 @@ h2 {
   object-position: center center; /* Adjust these values to shift focus */
   object-fit: cover;
   z-index: -1;
+
+  background: url("/media/imgs/background.png") no-repeat center center;
+  background-size: cover;
 }
 
 nav {
