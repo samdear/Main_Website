@@ -1,0 +1,96 @@
+The HTML Page Base Start every new project page with this shell: HTML
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/mobileStyle.css" />
+    <link rel="stylesheet" href="/portfolio/project.css" />
+    <title>Project Title — Sam De Armas</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="/index.html" class="nav-logo">Sam De Armas</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span><span></span><span></span>
+      </label>
+      <div class="nav-links">
+        <a href="/index.html#portfolio">portfolio</a>
+        <a href="/index.html#contact">contact</a>
+      </div>
+    </nav>
+
+    <!-- Project Content Container -->
+    <main class="project-container">
+      <!-- PASTE YOUR BLOCKS BELOW IN ANY ORDER -->
+    </main>
+  </body>
+</html>
+
+Copy/Paste Building Blocks Pick and choose from these blocks to assemble
+your page layout like LEGO pieces: 
+
+Block 1: Main Title HTML
+<h1 class="project-title">"Your Project Title"</h1>
+
+Block 2: Section Title HTML
+<h2 class="section-title">The process</h2>
+
+Block 3: Text Paragraph HTML
+<p class="paragraph-text">
+  Write your description or project breakdown text here.
+</p>
+
+Block 4: Vimeo / YouTube Video Player Replace VIMEO_VIDEO_ID with the numbers
+from your Vimeo link (e.g., 123456789). HTML
+<div class="video-box">
+  <iframe
+    src="https://player.vimeo.com/video/VIMEO_VIDEO_ID"
+    allowfullscreen
+  ></iframe>
+</div>
+<p class="caption">Optional video caption text goes here.</p>
+
+Block 5: Single Full-Width Image HTML
+<img class="single-img" src="/media/imgs/your-image.jpg" alt="Description" />
+<p class="caption">Optional image caption goes here.</p>
+
+Block 6: Two Images Side-by-Side (2 Columns) HTML
+<div class="grid-2">
+  <div>
+    <img src="/media/imgs/image-1.jpg" alt="Left Image" />
+    <p class="caption">Caption for left image.</p>
+  </div>
+  <div>
+    <img src="/media/imgs/image-2.jpg" alt="Right Image" />
+    <p class="caption">Caption for right image.</p>
+  </div>
+</div>
+
+Block 7: Four Images Grid (2x2) HTML
+<div class="grid-2">
+  <img src="/media/imgs/img1.jpg" alt="Item 1" />
+  <img src="/media/imgs/img2.jpg" alt="Item 2" />
+  <img src="/media/imgs/img3.jpg" alt="Item 3" />
+  <img src="/media/imgs/img4.jpg" alt="Item 4" />
+</div>
+<p class="caption">Caption explaining all four prototype photos.</p>
+
+Block 8: Two Videos Side-by-Side HTML
+<div class="grid-2">
+  <div class="video-box">
+    <iframe
+      src="https://player.vimeo.com/video/VIMEO_ID_1"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <div class="video-box">
+    <iframe
+      src="https://player.vimeo.com/video/VIMEO_ID_2"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
